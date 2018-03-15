@@ -1,0 +1,11 @@
+[package]
+name = "sa2_set_c_bindings"
+version = "0.1.0"
+authors = ["Isaac Lozano <109lozanoi@gmail.com>"]
+
+[lib]
+name = "sa2set"
+crate-type = ["dylib"]
+
+[dependencies]
+sa2_set = {path = "../sa2_set"}
